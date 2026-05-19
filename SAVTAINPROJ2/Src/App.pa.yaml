@@ -1,0 +1,30 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps should only be used to review changes made within Power Apps Studio and for minor edits (Preview).
+# Use the maker portal to create and edit your Power Apps.
+# 
+# The schema file for Canvas Apps is available at https://go.microsoft.com/fwlink/?linkid=2304907
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+App:
+  Properties:
+    OnStart: |+
+      =ClearCollect(
+        colLocations,
+        {Name: "Blue Mountains (Katoomba)", Region: "Greater Sydney", Lat: -33.7153, Long: 150.3114, Elevation: "1,017m"},
+        {Name: "Mount Kosciuszko", Region: "Snowy Mountains", Lat: -36.4548, Long: 148.2635, Elevation: "2,228m"},
+        {Name: "Barrington Tops", Region: "Mid North Coast", Lat: -31.9833, Long: 151.4833, Elevation: "1,555m"},
+        {Name: "Mount Kaputar", Region: "Nandewar Range", Lat: -30.2667, Long: 150.1500, Elevation: "1,489m"},
+        {Name: "Snowy Mountains (Jindabyne)", Region: "Snowy Mountains", Lat: -36.4167, Long: 148.6167, Elevation: "920m"},
+        {Name: "Mount Warning", Region: "Tweed Range", Lat: -28.3955, Long: 153.2689, Elevation: "1,156m"},
+        {Name: "Warrumbungle Range", Region: "Central West", Lat: -31.3000, Long: 149.0000, Elevation: "1,206m"},
+        {Name: "New England Tablelands", Region: "Northern Tablelands", Lat: -30.5167, Long: 151.6667, Elevation: "1,300m"},
+        {Name: "Southern Highlands (Bowral)", Region: "Southern Highlands", Lat: -34.4833, Long: 150.4167, Elevation: "724m"},
+        {Name: "Mount Royal Range", Region: "Hunter", Lat: -31.9000, Long: 151.4500, Elevation: "1,185m"},
+        {Name: "Illawarra Escarpment", Region: "South Coast", Lat: -34.4500, Long: 150.8833, Elevation: "850m"},
+        {Name: "Monaro Highlands", Region: "South East", Lat: -36.2333, Long: 149.1333, Elevation: "1,243m"},
+        {Name: "Gibraltar Range", Region: "Northern Tablelands", Lat: -29.5000, Long: 152.3333, Elevation: "1,300m"},
+        {Name: "Oxley Wild Rivers", Region: "New England", Lat: -30.5167, Long: 152.0167, Elevation: "1,100m"},
+        {Name: "Kanangra-Boyd (Jenolan)", Region: "Central Tablelands", Lat: -33.8167, Long: 150.0333, Elevation: "1,200m"}
+      )
+    Theme: =PowerAppsTheme

@@ -1,0 +1,124 @@
+{
+  "Resources": [
+    {
+      "Name": "papers.co-ml07-mountain-blur-minimal-nature-34-iphone6-plus-wallpaper",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "304a1341-944d-450b-ba01-74c5b655790a.jpg",
+      "Path": "Assets\\Images\\304a1341-944d-450b-ba01-74c5b655790a.jpg",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://dsprdil102eau.blob.core.windows.net/805a6fa0-af80-4f01-b4f3-c2f41af9fc4b-1/resource/MzA0YTEzNDEtOTQ0ZC00NTBiLWJhMDEtNzRjNWI2NTU3OTBh.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-05-19T02%3A24%3A03Z&ske=2026-05-20T02%3A39%3A03Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-05-20T02%3A39%3A03Z&sr=b&sp=r&sig=wOJr0BI%2BNnTNoATMq3I%2F0sbn9ciGgTyFV7b4BUT32Xo%3D"
+    },
+    {
+      "Name": "SampleImage",
+      "Schema": "i",
+      "IsSampleData": true,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "/ctrllib/image/images/SampleImage.svg",
+      "Path": "/ctrllib/image/images/SampleImage.svg",
+      "Content": "Image",
+      "ResourceKind": "Uri",
+      "RootPath": "ms-appx:///ctrllib/image/images/SampleImage.svg"
+    },
+    {
+      "Name": "firstaidkidelec1005",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "ce463680-3077-4bdc-8245-a6dd9c83a0f7.png",
+      "Path": "Assets\\Images\\ce463680-3077-4bdc-8245-a6dd9c83a0f7.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://dsprdil102eau.blob.core.windows.net/805a6fa0-af80-4f01-b4f3-c2f41af9fc4b-1/resource/Y2U0NjM2ODAtMzA3Ny00YmRjLTgyNDUtYTZkZDljODNhMGY3.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-05-19T02%3A24%3A03Z&ske=2026-05-20T02%3A39%3A03Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-05-20T02%3A39%3A03Z&sr=b&sp=r&sig=uVStjOJn85rGKcPg1J%2BWzyb4k%2BlcRSPqXE4pgTRhH4k%3D"
+    },
+    {
+      "Name": "截屏2026-05-05 09.34.56",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "f5d6116a-b103-4c58-8532-8c2b37d2e1f7.png",
+      "Path": "Assets\\Images\\f5d6116a-b103-4c58-8532-8c2b37d2e1f7.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://dsprdil102eau.blob.core.windows.net/805a6fa0-af80-4f01-b4f3-c2f41af9fc4b-1/resource/ZjVkNjExNmEtYjEwMy00YzU4LTg1MzItOGMyYjM3ZDJlMWY3.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-05-19T02%3A24%3A03Z&ske=2026-05-20T02%3A39%3A03Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-05-20T02%3A39%3A03Z&sr=b&sp=r&sig=BrXkXJ6Gvm1p%2FCdt%2BN0xRP%2Fbgd%2BM5mA81O2b4p8X8LA%3D"
+    },
+    {
+      "Name": "snazzy-image",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "74f351c7-b609-4c0f-8a01-d600d25a20a1.jpg",
+      "Path": "Assets\\Images\\74f351c7-b609-4c0f-8a01-d600d25a20a1.jpg",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://dsprdil102eau.blob.core.windows.net/805a6fa0-af80-4f01-b4f3-c2f41af9fc4b-1/resource/NzRmMzUxYzctYjYwOS00YzBmLThhMDEtZDYwMGQyNWEyMGEx.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-05-19T02%3A24%3A03Z&ske=2026-05-20T02%3A39%3A03Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-05-20T02%3A39%3A03Z&sr=b&sp=r&sig=U8%2BWjlNZGJMkkAceHvHPXSOs%2F8XEFHi2yZeCWEkG7G0%3D"
+    },
+    {
+      "Name": "map",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "05ef0fea-5de5-433e-8b21-ecd5a57c8d3a.png",
+      "Path": "Assets\\Images\\05ef0fea-5de5-433e-8b21-ecd5a57c8d3a.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://dsprdil102eau.blob.core.windows.net/805a6fa0-af80-4f01-b4f3-c2f41af9fc4b-1/resource/MDVlZjBmZWEtNWRlNS00MzNlLThiMjEtZWNkNWE1N2M4ZDNh.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-05-19T02%3A24%3A03Z&ske=2026-05-20T02%3A39%3A03Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-05-20T02%3A39%3A03Z&sr=b&sp=r&sig=mmv3ioAwNuVhwbqhj9NpDXcT5%2F3z2kA3Tr2bPSdOvD8%3D"
+    },
+    {
+      "Name": "屏幕截图 2026-05-08 173134",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "f42e6257-061d-4df2-8d57-cdbf5b1e5ce6.png",
+      "Path": "Assets\\Images\\f42e6257-061d-4df2-8d57-cdbf5b1e5ce6.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://dsprdil102eau.blob.core.windows.net/805a6fa0-af80-4f01-b4f3-c2f41af9fc4b-1/resource/ZjQyZTYyNTctMDYxZC00ZGYyLThkNTctY2RiZjViMWU1Y2U2.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-05-19T02%3A24%3A03Z&ske=2026-05-20T02%3A39%3A03Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-05-20T02%3A39%3A03Z&sr=b&sp=r&sig=LeX2Q1C%2FuqKUc05KXEaavKC0RmyunsLYN2t2ytAUb4w%3D"
+    },
+    {
+      "Name": "StockCake-Misty_Mountain_Majesty-1696721-medium",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "146ff663-62db-4ef5-b947-977a042e3376.jpg",
+      "Path": "Assets\\Images\\146ff663-62db-4ef5-b947-977a042e3376.jpg",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://dsprdil102eau.blob.core.windows.net/805a6fa0-af80-4f01-b4f3-c2f41af9fc4b-1/resource/MTQ2ZmY2NjMtNjJkYi00ZWY1LWI5NDctOTc3YTA0MmUzMzc2.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-05-19T02%3A24%3A03Z&ske=2026-05-20T02%3A39%3A03Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-05-20T02%3A39%3A03Z&sr=b&sp=r&sig=a3FtVdJn0KSQPVO%2B%2Fk6fIYC6Yh3LxMwbQgMEzfTZuuY%3D"
+    },
+    {
+      "Name": "mountain",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "8c39211c-2553-434b-a198-6e1c001a0d45.png",
+      "Path": "Assets\\Images\\8c39211c-2553-434b-a198-6e1c001a0d45.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://dsprdil102eau.blob.core.windows.net/805a6fa0-af80-4f01-b4f3-c2f41af9fc4b-1/resource/OGMzOTIxMWMtMjU1My00MzRiLWExOTgtNmUxYzAwMWEwZDQ1.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-05-19T02%3A24%3A03Z&ske=2026-05-20T02%3A39%3A03Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-05-20T02%3A39%3A03Z&sr=b&sp=r&sig=ZrFZLbj%2BDOeem6KZQfq2OcEmk8mjKL7Su7DSoNXc27g%3D"
+    },
+    {
+      "Name": "ChatGPT Image 2026年5月12日 11_39_22",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "0a0adec9-47bf-4343-b471-d3128a141133.png",
+      "Path": "Assets\\Images\\0a0adec9-47bf-4343-b471-d3128a141133.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://dsprdil102eau.blob.core.windows.net/805a6fa0-af80-4f01-b4f3-c2f41af9fc4b-1/resource/MGEwYWRlYzktNDdiZi00MzQzLWI0NzEtZDMxMjhhMTQxMTMz.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-05-19T02%3A24%3A03Z&ske=2026-05-20T02%3A39%3A03Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2026-05-20T02%3A39%3A03Z&sr=b&sp=r&sig=ZKlaIyBDSVkdK1I8Yk2zXWcJ4K8E6%2BjOYW0kRNenWHw%3D"
+    }
+  ]
+}

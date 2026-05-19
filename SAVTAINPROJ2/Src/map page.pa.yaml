@@ -1,0 +1,331 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps should only be used to review changes made within Power Apps Studio and for minor edits (Preview).
+# Use the maker portal to create and edit your Power Apps.
+# 
+# The schema file for Canvas Apps is available at https://go.microsoft.com/fwlink/?linkid=2304907
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  map page:
+    Properties:
+      BackgroundImage: =map
+      Fill: =RGBA(255, 255, 255, 1)
+      ImagePosition: =ImagePosition.Fill
+      LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+      OnVisible: |-
+        =UpdateContext({ShowRoute1: false,ShowDetail1: false,ShowDetail2: false})
+    Children:
+      - Image5:
+          Control: Image@2.2.3
+          Properties:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =280
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: ="data:image/svg+xml," & EncodeUrl("<svg width='800' height='600' xmlns='http://www.w3.org/2000/svg'><polyline points='80,90 400,320 720,480' stroke='red' stroke-width='6' fill='none' stroke-linecap='round'/></svg>")
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =ShowRoute1
+            Width: =295
+            Y: =409
+      - Circle1:
+          Control: Circle@2.3.0
+          Properties:
+            AccessibleLabel: =
+            BorderColor: =RGBA(245, 245, 245, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(0, 120, 212, 1)
+            Fill: =RGBA(215, 58, 60, 1)
+            Height: =20
+            HoverFill: =RGBA(0, 120, 212, 1)
+            OnSelect: |-
+              =UpdateContext({ShowDetail1: true})
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =20
+            X: =20
+            Y: =456
+      - Rectangle1:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(161, 159, 157, 1)
+            Fill: =RGBA(180, 214, 250, 1)
+            FocusedBorderThickness: =4
+            Height: =254
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Visible: =ShowDetail1
+            Width: =200
+            X: =92
+            Y: =296
+      - Text3:
+          Control: ModernText@1.0.0
+          Properties:
+            Font: =Font.'Lato Black'
+            Height: =62
+            Size: =12
+            Text: |-
+              ="Status: 
+              Responsed"
+            Visible: =ShowDetail1
+            Width: =200
+            X: =104
+            Y: =328
+      - Text4:
+          Control: ModernText@1.0.0
+          Properties:
+            Font: =Font.'Lato Black'
+            Height: =80
+            Size: =12
+            Text: |-
+              ="Location : 
+              Silver Bullet Express, 
+              Blue Mountain Sydney"
+            Visible: =ShowDetail1
+            Width: =188
+            X: =104
+            Y: =376
+      - Text5:
+          Control: ModernText@1.0.0
+          Properties:
+            Font: =Font.'Lato Black'
+            Height: =52
+            Size: =12
+            Text: |-
+              ="Coordinates:
+              33.3856° S, 150.4865° E"
+            Visible: =ShowDetail1
+            X: =104
+            Y: =456
+      - Text6:
+          Control: ModernText@1.0.0
+          Properties:
+            Align: =Align.Center
+            Fill: =RGBA(40, 134, 222, 1)
+            Font: =Font.'Lato Black'
+            Size: =12
+            Text: ="Rescue Point Details"
+            Visible: =ShowDetail1
+            Width: =200
+            X: =92
+            Y: =296
+      - Icon19:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(13, 50, 61, 1)
+            DisabledBorderColor: =RGBA(245, 245, 245, 1)
+            DisabledColor: =RGBA(225, 223, 221, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =32
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(16, 110, 190, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Cancel
+            OnSelect: |-
+              =UpdateContext({ShowDetail1: false})
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =RGBA(16, 110, 190, 1)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =ShowDetail1
+            Width: =21
+            X: =271
+            Y: =296
+      - Button7_1:
+          Control: ModernButton@1.0.0
+          Properties:
+            BasePaletteColor: =RGBA(174, 196, 214, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =28
+            Icon: ="ArrowRight"
+            Layout: =ButtonLayout.IconAfter
+            OnSelect: |-
+              =UpdateContext({ShowRoute1: true,ShowDetail1: false})
+            Text: ="Go Here"
+            Visible: =ShowDetail1
+            Width: =200
+            X: =92
+            Y: =522
+      - Icon20:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(0, 120, 212, 1)
+            DisabledBorderColor: =RGBA(245, 245, 245, 1)
+            DisabledColor: =RGBA(225, 223, 221, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =54
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(16, 110, 190, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Waypoint
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =RGBA(16, 110, 190, 1)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =61
+            X: =240
+            Y: =562
+      - TextInput3:
+          Control: ModernTextInput@1.1.0
+          Properties:
+            BorderThickness: =0
+            Color: =RGBA(52, 152, 47, 1)
+            Fill: =RGBA(174, 208, 221, 1)
+            Height: =40
+            Placeholder: ="Search :"
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Type: =TextInputType.Search
+            Width: =350
+            X: =20
+            Y: =33
+      - Icon21:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(0, 120, 212, 1)
+            DisabledBorderColor: =RGBA(245, 245, 245, 1)
+            DisabledColor: =RGBA(225, 223, 221, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =19
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(16, 110, 190, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Search
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =RGBA(16, 110, 190, 1)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =38
+            X: =327
+            Y: =45
+      - Container5_3:
+          Control: GroupContainer@1.5.0
+          Variant: ManualLayout
+          Properties:
+            BorderColor: =RGBA(210, 200, 180, 50)
+            Fill: =RGBA(138, 90, 43, 1)
+            Height: =51
+            Width: =362
+            X: =14
+            Y: =780
+          Children:
+            - Icon2_3:
+                Control: Classic/Icon@2.5.0
+                Properties:
+                  BorderColor: =RGBA(0, 0, 0, 0)
+                  Color: =RGBA(232, 216, 190, 1)
+                  DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                  DisabledColor: =RGBA(225, 223, 221, 1)
+                  DisabledFill: =RGBA(0, 0, 0, 0)
+                  FocusedBorderThickness: =4
+                  Height: =45
+                  HoverBorderColor: =RGBA(0, 0, 0, 0)
+                  HoverColor: =RGBA(16, 110, 190, 1)
+                  HoverFill: =RGBA(0, 0, 0, 0)
+                  Icon: =Icon.Home
+                  OnSelect: =Navigate('home page')
+                  PressedBorderColor: =RGBA(0, 0, 0, 0)
+                  PressedColor: =RGBA(16, 110, 190, 1)
+                  PressedFill: =RGBA(0, 0, 0, 0)
+                  Width: =45
+                  X: =26
+                  Y: =2
+            - Icon3_3:
+                Control: Classic/Icon@2.5.0
+                Properties:
+                  BorderColor: =RGBA(0, 0, 0, 0)
+                  Color: =RGBA(232, 216, 190, 1)
+                  DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                  DisabledColor: =RGBA(225, 223, 221, 1)
+                  DisabledFill: =RGBA(0, 0, 0, 0)
+                  FocusedBorderThickness: =4
+                  Height: =40
+                  HoverBorderColor: =RGBA(0, 0, 0, 0)
+                  HoverColor: =RGBA(16, 110, 190, 1)
+                  HoverFill: =RGBA(0, 0, 0, 0)
+                  Icon: =Icon.Notebook
+                  OnSelect: =Navigate('incident page')
+                  PressedBorderColor: =RGBA(0, 0, 0, 0)
+                  PressedColor: =RGBA(16, 110, 190, 1)
+                  PressedFill: =RGBA(0, 0, 0, 0)
+                  Width: =40
+                  X: =92
+                  Y: =7
+            - Icon4_3:
+                Control: Classic/Icon@2.5.0
+                Properties:
+                  BorderColor: =RGBA(0, 0, 0, 0)
+                  Color: =RGBA(232, 216, 190, 1)
+                  DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                  DisabledColor: =RGBA(225, 223, 221, 1)
+                  DisabledFill: =RGBA(0, 0, 0, 0)
+                  FocusedBorderThickness: =4
+                  Height: =40
+                  HoverBorderColor: =RGBA(0, 0, 0, 0)
+                  HoverColor: =RGBA(16, 110, 190, 1)
+                  HoverFill: =RGBA(0, 0, 0, 0)
+                  Icon: =Icon.Waypoint
+                  OnSelect: =Navigate('map page')
+                  PressedBorderColor: =RGBA(0, 0, 0, 0)
+                  PressedColor: =RGBA(16, 110, 190, 1)
+                  PressedFill: =RGBA(0, 0, 0, 0)
+                  Width: =45
+                  X: =153
+                  Y: =7
+            - Icon6_3:
+                Control: Classic/Icon@2.5.0
+                Properties:
+                  BorderColor: =RGBA(0, 0, 0, 0)
+                  Color: =RGBA(232, 216, 190, 1)
+                  DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                  DisabledColor: =RGBA(225, 223, 221, 1)
+                  DisabledFill: =RGBA(0, 0, 0, 0)
+                  FocusedBorderThickness: =4
+                  Height: =43
+                  HoverBorderColor: =RGBA(0, 0, 0, 0)
+                  HoverColor: =RGBA(16, 110, 190, 1)
+                  HoverFill: =RGBA(0, 0, 0, 0)
+                  Icon: =Icon.Weather
+                  OnSelect: =Navigate('weather page')
+                  PressedBorderColor: =RGBA(0, 0, 0, 0)
+                  PressedColor: =RGBA(16, 110, 190, 1)
+                  PressedFill: =RGBA(0, 0, 0, 0)
+                  Width: =45
+                  X: =219
+                  Y: =4
+            - Icon8_3:
+                Control: Classic/Icon@2.5.0
+                Properties:
+                  BorderColor: =RGBA(0, 0, 0, 0)
+                  Color: =RGBA(232, 216, 190, 1)
+                  DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                  DisabledColor: =RGBA(225, 223, 221, 1)
+                  DisabledFill: =RGBA(0, 0, 0, 0)
+                  FocusedBorderThickness: =4
+                  Height: =45
+                  HoverBorderColor: =RGBA(0, 0, 0, 0)
+                  HoverColor: =RGBA(16, 110, 190, 1)
+                  HoverFill: =RGBA(0, 0, 0, 0)
+                  Icon: =Icon.Person
+                  OnSelect: |
+                    =Navigate('profile page')
+                  PressedBorderColor: =RGBA(0, 0, 0, 0)
+                  PressedColor: =RGBA(16, 110, 190, 1)
+                  PressedFill: =RGBA(0, 0, 0, 0)
+                  Width: =45
+                  X: =286
+                  Y: =3

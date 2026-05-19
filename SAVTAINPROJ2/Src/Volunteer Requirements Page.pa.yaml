@@ -1,0 +1,713 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps should only be used to review changes made within Power Apps Studio and for minor edits (Preview).
+# Use the maker portal to create and edit your Power Apps.
+# 
+# The schema file for Canvas Apps is available at https://go.microsoft.com/fwlink/?linkid=2304907
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  Volunteer Requirements Page:
+    Properties:
+      Fill: =RGBA(227, 207, 157, 0.5)
+      ImagePosition: =ImagePosition.Stretch
+      LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Children:
+      - Canvas3_1:
+          Control: FluidGrid@2.3.0
+          Properties:
+            BorderThickness: =0
+            Height: =844
+            Width: =Parent.Width
+          Children:
+            - DataCard3_1:
+                Control: DataCard@1.0.2
+                Properties:
+                  Height: =133
+                  Width: =Parent.Width
+                  X: =0
+                  Y: =0
+                Children:
+                  - Label11:
+                      Control: Label@2.5.1
+                      Properties:
+                        Align: =Align.Center
+                        AutoHeight: =true
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(138, 90, 43, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Bold
+                        Size: =18
+                        Text: ="Volunteer Requirements"
+                        Width: =300
+                        X: =45
+                        Y: =50
+                  - Label16:
+                      Control: Label@2.5.1
+                      Properties:
+                        Align: =Align.Center
+                        AutoHeight: =true
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        Size: =7
+                        Text: ="We are looking for dedicated individuals who are keen and ready to make a difference! Here’s what it takes to join our team!"
+                        Width: =350
+                        X: =20
+                        Y: =90
+                  - Icon9:
+                      Control: Classic/Icon@2.5.0
+                      Properties:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        Color: =RGBA(160, 64, 8, 1)
+                        DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                        DisabledColor: =RGBA(225, 223, 221, 1)
+                        DisabledFill: =RGBA(0, 0, 0, 0)
+                        FocusedBorderThickness: =4
+                        Height: =25
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(16, 110, 190, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        Icon: =Icon.ChevronLeft
+                        OnSelect: =Navigate('log in page')
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(16, 110, 190, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Width: =25
+                        X: =25
+                        Y: =20
+            - DataCard10:
+                Control: DataCard@1.0.2
+                Variant: BlankCard
+                Properties:
+                  Height: =226
+                  Width: =390
+                  X: =0
+                  Y: =1
+                Children:
+                  - Container1:
+                      Control: GroupContainer@1.5.0
+                      Variant: ManualLayout
+                      Properties:
+                        Fill: =RGBA(230, 228, 207, 0.71)
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Width: =350
+                        X: =15
+                        Y: =15
+                      Children:
+                        - Text1:
+                            Control: ModernText@1.0.0
+                            Properties:
+                              AutoHeight: =true
+                              Color: =RGBA(138, 90, 43, 1)
+                              FontWeight: =FontWeight.Semibold
+                              Size: =17
+                              Text: ="Physical Requirements:"
+                              Width: =300
+                              X: =20
+                              Y: =15
+                        - Text2:
+                            Control: ModernText@1.0.0
+                            Properties:
+                              Align: =Align.Justify
+                              AutoHeight: =true
+                              Font: =Font.'Open Sans'
+                              Height: =200
+                              Size: =13
+                              Text: |-
+                                ="· Be 18 years or older
+                                · Good physical fitness (fitness assessments required)
+                                · Ability to carry 20kg+ equipment over rough terrain
+                                · No medical conditions that would affect rescue operations"
+                              Width: =300
+                              X: =20
+                              Y: =49
+            - DataCard11:
+                Control: DataCard@1.0.2
+                Variant: BlankCard
+                Properties:
+                  Height: =693
+                  Width: =390
+                  X: =0
+                  Y: =2
+                Children:
+                  - Container1_1:
+                      Control: GroupContainer@1.5.0
+                      Variant: ManualLayout
+                      Properties:
+                        Fill: =RGBA(230, 228, 207, 0.71)
+                        Height: =580
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Width: =350
+                        X: =16
+                        Y: =105
+                      Children:
+                        - Label22:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              FontWeight: =FontWeight.Semibold
+                              Size: =10
+                              Text: ="First Name"
+                              X: =20
+                              Y: =20
+                        - txtFirstName:
+                            Control: ModernTextInput@1.1.0
+                            Properties:
+                              Height: =25
+                              Placeholder: ="First Name"
+                              RadiusBottomLeft: =10
+                              RadiusBottomRight: =10
+                              RadiusTopLeft: =10
+                              RadiusTopRight: =10
+                              Size: =12
+                              Width: =310
+                              X: =20
+                              Y: =45
+                        - Label22_1:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              FontWeight: =FontWeight.Semibold
+                              Size: =10
+                              Text: ="Last Name"
+                              X: =20
+                              Y: =80
+                        - txtLastName:
+                            Control: ModernTextInput@1.1.0
+                            Properties:
+                              Height: =25
+                              Placeholder: ="Last Name"
+                              RadiusBottomLeft: =10
+                              RadiusBottomRight: =10
+                              RadiusTopLeft: =10
+                              RadiusTopRight: =10
+                              Size: =12
+                              Width: =310
+                              X: =20
+                              Y: =105
+                        - Label22_2:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              FontWeight: =FontWeight.Semibold
+                              Size: =10
+                              Text: ="Date of Birth"
+                              X: =20
+                              Y: =140
+                        - txtDD:
+                            Control: ModernTextInput@1.1.0
+                            Properties:
+                              Align: =Align.Center
+                              Height: =25
+                              Placeholder: ="DD"
+                              RadiusBottomLeft: =10
+                              RadiusBottomRight: =10
+                              RadiusTopLeft: =10
+                              RadiusTopRight: =10
+                              Size: =12
+                              Width: =90
+                              X: =20
+                              Y: =165
+                        - txtMM:
+                            Control: ModernTextInput@1.1.0
+                            Properties:
+                              Align: =Align.Center
+                              Height: =25
+                              Placeholder: ="MM"
+                              RadiusBottomLeft: =10
+                              RadiusBottomRight: =10
+                              RadiusTopLeft: =10
+                              RadiusTopRight: =10
+                              Size: =12
+                              Width: =90
+                              X: =115
+                              Y: =165
+                        - txtYYYY:
+                            Control: ModernTextInput@1.1.0
+                            Properties:
+                              Align: =Align.Center
+                              Height: =25
+                              Placeholder: ="YYYY"
+                              RadiusBottomLeft: =10
+                              RadiusBottomRight: =10
+                              RadiusTopLeft: =10
+                              RadiusTopRight: =10
+                              Size: =12
+                              Width: =120
+                              X: =210
+                              Y: =167
+                        - Label22_3:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              FontWeight: =FontWeight.Semibold
+                              Size: =10
+                              Text: ="Phone Number"
+                              X: =20
+                              Y: =200
+                        - txtNumber:
+                            Control: ModernTextInput@1.1.0
+                            Properties:
+                              Height: =25
+                              Placeholder: ="+61 123456789"
+                              RadiusBottomLeft: =10
+                              RadiusBottomRight: =10
+                              RadiusTopLeft: =10
+                              RadiusTopRight: =10
+                              Size: =12
+                              Width: =310
+                              X: =20
+                              Y: =225
+                        - Label22_4:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              FontWeight: =FontWeight.Semibold
+                              Size: =10
+                              Text: ="Email"
+                              X: =20
+                              Y: =260
+                        - txtEmail:
+                            Control: ModernTextInput@1.1.0
+                            Properties:
+                              Height: =25
+                              Placeholder: ="name@gmail.com"
+                              RadiusBottomLeft: =10
+                              RadiusBottomRight: =10
+                              RadiusTopLeft: =10
+                              RadiusTopRight: =10
+                              Size: =12
+                              Width: =310
+                              X: =20
+                              Y: =285
+                        - Label22_5:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              FontWeight: =FontWeight.Semibold
+                              Size: =10
+                              Text: ="Location (City / Region)"
+                              Width: =259
+                              X: =20
+                              Y: =320
+                        - txtCity:
+                            Control: ModernTextInput@1.1.0
+                            Properties:
+                              Height: =25
+                              Placeholder: ="Sydney, Glebe"
+                              RadiusBottomLeft: =10
+                              RadiusBottomRight: =10
+                              RadiusTopLeft: =10
+                              RadiusTopRight: =10
+                              Size: =12
+                              Width: =310
+                              X: =20
+                              Y: =345
+                        - Label22_6:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              FontWeight: =FontWeight.Semibold
+                              Size: =10
+                              Text: ="Self Introduction"
+                              Width: =259
+                              X: =20
+                              Y: =380
+                        - txtIntroduction:
+                            Control: ModernTextInput@1.1.0
+                            Properties:
+                              Height: =40
+                              Placeholder: ="Optional"
+                              RadiusBottomLeft: =10
+                              RadiusBottomRight: =10
+                              RadiusTopLeft: =10
+                              RadiusTopRight: =10
+                              Size: =12
+                              Width: =310
+                              X: =20
+                              Y: =405
+                        - Label22_7:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              FontWeight: =FontWeight.Semibold
+                              Size: =10
+                              Text: ="Professional Documents"
+                              Width: =259
+                              X: =20
+                              Y: =455
+                        - txtDocument:
+                            Control: ModernTextInput@1.1.0
+                            Properties:
+                              Height: =25
+                              Placeholder: ="eg. First Aid Certificate, CPR Certification..."
+                              RadiusBottomLeft: =10
+                              RadiusBottomRight: =10
+                              RadiusTopLeft: =10
+                              RadiusTopRight: =10
+                              Size: =12
+                              Width: =310
+                              X: =20
+                              Y: =480
+                        - Icon12:
+                            Control: Classic/Icon@2.5.0
+                            Properties:
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              Color: =RGBA(0, 0, 0, 0.85)
+                              DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                              DisabledColor: =RGBA(225, 223, 221, 1)
+                              DisabledFill: =RGBA(0, 0, 0, 0)
+                              FocusedBorderThickness: =4
+                              Height: =15
+                              HoverBorderColor: =RGBA(0, 0, 0, 0)
+                              HoverColor: =RGBA(16, 110, 190, 1)
+                              HoverFill: =RGBA(0, 0, 0, 0)
+                              Icon: =Icon.Scan
+                              OnSelect: |-
+                                =Notify(
+                                    "File upload is currently not supported. Please email your certifications to savtain@gmail.com",
+                                    NotificationType.Information
+                                )
+                              PressedBorderColor: =RGBA(0, 0, 0, 0)
+                              PressedColor: =RGBA(16, 110, 190, 1)
+                              PressedFill: =RGBA(0, 0, 0, 0)
+                              Width: =30
+                              X: =285
+                              Y: =485
+                        - Button3:
+                            Control: ModernButton@1.0.0
+                            Properties:
+                              BasePaletteColor: =RGBA(138, 90, 43, 1)
+                              OnSelect: "=If(\r\n\r\n    IsBlank(txtFirstName.Text) ||\r\n    IsBlank(txtLastName.Text) ||\r\n    IsBlank(txtDD.Text) ||\r\n    IsBlank(txtMM.Text) ||\r\n    IsBlank(txtYYYY.Text) ||\r\n    IsBlank(txtNumber.Text) ||\r\n    IsBlank(txtEmail.Text) ||\r\n    IsBlank(txtCity.Text),\r\n\r\n    Notify(\r\n        \"Please fill in all required fields\",\r\n        NotificationType.Error\r\n    ),\r\n\r\n    Reset(txtFirstName);\r\n    Reset(txtLastName);\r\n\r\n    Reset(txtDD);\r\n    Reset(txtMM);\r\n    Reset(txtYYYY);\r\n\r\n    Reset(txtNumber);\r\n    Reset(txtEmail);\r\n    Reset(txtCity);\r\n    \r\n\r\n    Reset(txtIntroduction);\r\n\r\n    Navigate('success page submission')\r\n\r\n)"
+                              Text: ="Submit Application"
+                              Width: =230
+                              X: =60
+                              Y: =527
+                  - Label20:
+                      Control: Label@2.5.1
+                      Properties:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(138, 90, 43, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Size: =17
+                        Text: ="Ready to get started?"
+                        Width: =300
+                        X: =41
+                        Y: =20
+                  - Label21:
+                      Control: Label@2.5.1
+                      Properties:
+                        Align: =Align.Center
+                        AutoHeight: =true
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        Height: =28
+                        Size: =7
+                        Text: |-
+                          ="Take the first step towards becoming a mountain rescue volunteer. Fill out the 
+                          form below and we'll be in touch within 48 hours."
+                        Width: =338
+                        X: =22
+                        Y: =60
+            - DataCard12:
+                Control: DataCard@1.0.2
+                Variant: BlankCard
+                Properties:
+                  Height: =190
+                  Width: =390
+                  X: =0
+                  Y: =3
+                Children:
+                  - Label20_1:
+                      Control: Label@2.5.1
+                      Properties:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(138, 90, 43, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Size: =17
+                        Text: |-
+                          ="Contact Us!
+                          "
+                        Width: =300
+                        X: =40
+                        Y: =8
+                  - Container1_2:
+                      Control: GroupContainer@1.5.0
+                      Variant: ManualLayout
+                      Properties:
+                        Fill: =RGBA(230, 228, 207, 0.71)
+                        Height: =115
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Width: =350
+                        X: =15
+                        Y: =48
+                      Children:
+                        - Label22_8:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              FontWeight: =FontWeight.Semibold
+                              Size: =10
+                              Text: ="Email:"
+                              Width: =50
+                              X: =40
+                              Y: =10
+                        - Label22_9:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              FontWeight: =FontWeight.Semibold
+                              Size: =10
+                              Text: ="Phone Number:"
+                              Width: =110
+                              X: =40
+                              Y: =45
+                        - Label22_10:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              FontWeight: =FontWeight.Semibold
+                              Size: =10
+                              Text: ="Head Quarters:"
+                              Width: =110
+                              X: =40
+                              Y: =80
+                        - Label22_11:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              Size: =10
+                              Text: ="savetain@gmailcom"
+                              Width: =159
+                              X: =80
+                              Y: =10
+                        - Label22_12:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              Size: =10
+                              Text: ="+61 112123123"
+                              Width: =159
+                              X: =140
+                              Y: =45
+                        - Label22_13:
+                            Control: Label@2.5.1
+                            Properties:
+                              AutoHeight: =true
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              BorderStyle: =BorderStyle.None
+                              BorderThickness: =2
+                              Color: =RGBA(50, 49, 48, 1)
+                              DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                              DisabledColor: =RGBA(161, 159, 157, 1)
+                              FocusedBorderThickness: =4
+                              Font: =Font.'Segoe UI'
+                              Size: =10
+                              Text: ="Located in Sydeny, NSW, AU"
+                              Width: =193
+                              X: =135
+                              Y: =80
+                        - Icon13:
+                            Control: Classic/Icon@2.5.0
+                            Properties:
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              Color: =RGBA(138, 90, 43, 1)
+                              DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                              DisabledColor: =RGBA(225, 223, 221, 1)
+                              DisabledFill: =RGBA(0, 0, 0, 0)
+                              FocusedBorderThickness: =4
+                              Height: =20
+                              HoverBorderColor: =RGBA(0, 0, 0, 0)
+                              HoverColor: =RGBA(16, 110, 190, 1)
+                              HoverFill: =RGBA(0, 0, 0, 0)
+                              Icon: =Icon.Mail
+                              PressedBorderColor: =RGBA(0, 0, 0, 0)
+                              PressedColor: =RGBA(16, 110, 190, 1)
+                              PressedFill: =RGBA(0, 0, 0, 0)
+                              Width: =20
+                              X: =17
+                              Y: =13
+                        - Icon13_1:
+                            Control: Classic/Icon@2.5.0
+                            Properties:
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              Color: =RGBA(138, 90, 43, 1)
+                              DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                              DisabledColor: =RGBA(225, 223, 221, 1)
+                              DisabledFill: =RGBA(0, 0, 0, 0)
+                              FocusedBorderThickness: =4
+                              Height: =20
+                              HoverBorderColor: =RGBA(0, 0, 0, 0)
+                              HoverColor: =RGBA(16, 110, 190, 1)
+                              HoverFill: =RGBA(0, 0, 0, 0)
+                              Icon: =Icon.Phone
+                              PressedBorderColor: =RGBA(0, 0, 0, 0)
+                              PressedColor: =RGBA(16, 110, 190, 1)
+                              PressedFill: =RGBA(0, 0, 0, 0)
+                              Width: =20
+                              X: =17
+                              Y: =48
+                        - Icon13_2:
+                            Control: Classic/Icon@2.5.0
+                            Properties:
+                              BorderColor: =RGBA(0, 0, 0, 0)
+                              Color: =RGBA(138, 90, 43, 1)
+                              DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                              DisabledColor: =RGBA(225, 223, 221, 1)
+                              DisabledFill: =RGBA(0, 0, 0, 0)
+                              FocusedBorderThickness: =4
+                              Height: =20
+                              HoverBorderColor: =RGBA(0, 0, 0, 0)
+                              HoverColor: =RGBA(16, 110, 190, 1)
+                              HoverFill: =RGBA(0, 0, 0, 0)
+                              Icon: =Icon.Location
+                              PressedBorderColor: =RGBA(0, 0, 0, 0)
+                              PressedColor: =RGBA(16, 110, 190, 1)
+                              PressedFill: =RGBA(0, 0, 0, 0)
+                              Width: =20
+                              X: =17
+                              Y: =83
